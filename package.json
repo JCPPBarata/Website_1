@@ -1,0 +1,22 @@
+{
+  "name": "website_1.0",
+  "version": "1.0.0",
+  "description": "First website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "GOAT_Website"
+  ],
+  "author": "Joao Barata",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/hapi": "^19.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
